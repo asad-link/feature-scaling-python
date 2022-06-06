@@ -39,7 +39,7 @@ sc_y = StandardScaler()
 X = sc_X.fit_transform(X)
 y = sc_y.fit_transform(y)
 ```
-### using rbf kernal
+## using rbf kernal
 
 The RBF kernel is a stationary kernel. It is also known as the “squared exponential” kernel. It is parameterized by a length scale parameter , which can either be a scalar (isotropic variant of the kernel) or a vector with the same number of dimensions as the inputs X (anisotropic variant of the kernel)
 
